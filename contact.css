@@ -1,0 +1,29 @@
+
+.contact-info {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  margin-top: 1rem;
+  justify-items: start;
+}
+.contact-info a {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  text-decoration: none;
+  color: var(--fg);
+  font-weight: 500;
+  transition: color 0.2s;
+}
+.contact-info a img {
+  width: 24px;
+  height: 24px;
+}
+.contact-info a:hover {
+  color: var(--accent);
+}
+@media (min-width: 480px) {
+  .contact-info {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

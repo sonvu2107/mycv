@@ -1,0 +1,25 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Inter", sans-serif;
+  background: var(--bg);
+  color: var(--fg);
+  line-height: 1.6;
+  transition: background 0.3s, color 0.3s;
+}
+:root {
+  --bg: #f9f9f9;
+  --fg: #333;
+  --accent: #004080;
+  --accent-light: #4a90e2;
+  --accent-dark: #003060;
+  --hero-gradient: linear-gradient(135deg, #4a90e2 0%, #9013fe 100%);
+  --card-bg: #fff;
+}

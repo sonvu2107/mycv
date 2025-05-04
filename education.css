@@ -1,0 +1,14 @@
+
+#education {
+  padding: 60px 0;
+  background-color: #fafafa;
+}
+.edu-item h3 {
+  margin: 5px 0;
+}
+.edu-item .edu-time {
+  color: #888;
+  font-size: 0.95rem;
+  display: block;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trang Cá Nhân – Sơn Vũ</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <link rel="stylesheet" href="base.css" />
+    <link rel="stylesheet" href="layout.css" />
+    <link rel="stylesheet" href="navbar.css" />
+    <link rel="stylesheet" href="about.css" />
+    <link rel="stylesheet" href="skills.css" />
+    <link rel="stylesheet" href="projects.css" />
+    <link rel="stylesheet" href="form.css" />
+    <link rel="stylesheet" href="contact.css" />
+    <link rel="stylesheet" href="experience.css" />
+    <link rel="stylesheet" href="education.css" />
+    <link rel="stylesheet" href="footer.css" />
+    <link rel="stylesheet" href="dark-mode.css" />
+  </head>
+  <body>
+    <button id="dark-toggle" aria-label="Toggle dark mode">🌙</button>
+
+    <header id="navbar">
+      <div class="container nav-container">
+        <button id="menu-toggle" aria-label="Toggle menu">☰</button>
+        <nav id="nav-menu">
+          <ul>
+            <li><a href="#about" class="active">Giới thiệu</a></li>
+            <li><a href="#skills">Kỹ năng</a></li>
+            <li><a href="#education">Học vấn</a></li>
+            <li><a href="#experience">Kinh nghiệm</a></li>
+            <li><a href="#projects">Dự án</a></li>
+            <li><a href="#contact">Liên hệ</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="about">
+        <div class="container">
+          <h1>Xin chào, mình là <span id="typed"></span></h1>
+          <p>
+            Hiện đang là sinh viên CNTT tại Đại học Kiến Trúc Hà Nội, đam mê lập
+            trình và công nghệ web.
+          </p>
+
+          <button id="download-cv">Tải CV</button>
+        </div>
+      </section>
+
+      <section id="skills">
+        <div class="container">
+          <h2>Kỹ năng</h2>
+          <ul class="skills-grid">
+            <li class="skills-card">...</li>
+            <li class="skills-card">...</li>
+            <li class="skills-card">...</li>
+            <li class="skills-card">...</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="education">
+        <div class="container">
+          <h2>Học vấn</h2>
+          <div class="edu-item">
+            <h3>Đại học Kiến Trúc Hà Nội</h3>
+            <span class="edu-time">2023 – 2027</span>
+            <p>Chuyên ngành: Công nghệ thông tin.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="experience">
+        <div class="container">
+          <h2>Kinh nghiệm</h2>
+          <div class="experience-item">
+            <h3>Chưa có</h3>
+            <span class="company">Đang phát triển</span>
+            <p>Sẽ update sau...</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects">
+        <div class="container">
+          <h2>Dự án nổi bật</h2>
+          <div class="projects-grid">
+            <div class="project-card">
+              <img src="images/project1-thumbnail.jpg" alt="Dự án 1" />
+              <div class="project-content">
+                <h3>Dự án 1</h3>
+                <p>Thông tin: (Sẽ update...).</p>
+                <p><strong>Công nghệ:</strong> (Sẽ update...)</p>
+                <div class="project-links">
+                  <a
+                    href="https://github.com/sonvu2107/todo-app"
+                    target="_blank"
+                    >Xem mã nguồn</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="project-card">
+              <img src="images/project2-thumbnail.jpg" alt="Dự án 2" />
+              <div class="project-content">
+                <h3>Dự án 2</h3>
+                <p>Thông tin: (Sẽ update...).</p>
+                <p><strong>Công nghệ:</strong> Ví dụ: (Sẽ update...)</p>
+                <div class="project-links">
+                  <a
+                    href="https://github.com/sonvu2107/ten-repo-khac"
+                    target="_blank"
+                    >Xem mã nguồn</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contact">
+        <div class="container">
+          <h2>Liên hệ</h2>
+          <div class="contact-info">
+            <a href="mailto:sontruykich@gmail.com">
+              <img
+                src="https://www.svgrepo.com/show/14478/email.svg"
+                alt="Email"
+              />
+              sontruykich@gmail.com
+            </a>
+            <a href="tel:+84123456789">
+              <img
+                src="https://cdn.glitch.global/c6e86a16-3414-41fb-938e-f081d940b89a/icon-phone.svg?v=1746339538876"
+                alt="Phone"
+              />
+              +84 376 640 490
+            </a>
+            <a href="www.linkedin.com/in/shi-ku-853107364" target="_blank">
+              <img
+                src="https://www.cdnlogo.com/logos/l/78/linkedin-icon.svg"
+                alt="LinkedIn"
+              />
+              /in/shi-ku-853107364
+            </a>
+            <a href="https://github.com/sonvu2107" target="_blank">
+              <img
+                src="https://cdn.glitch.global/c6e86a16-3414-41fb-938e-f081d940b89a/icon-github.svg?v=1746339535822"
+                alt="GitHub"
+              />
+              sonvu2107
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <p>&copy; 2025 Sơn Vũ</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

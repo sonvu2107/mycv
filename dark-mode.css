@@ -1,0 +1,40 @@
+
+:root.dark-mode {
+  --bg: #121212;
+  --fg: #eee;
+  --accent: #ffdd00;
+  --card-bg: #1e1e1e;
+}
+:root.dark-mode #navbar {
+  background: rgba(40, 40, 40, 1);
+}
+:root.dark-mode #nav-menu a {
+  color: #ddd;
+}
+:root.dark-mode #nav-menu a.active,
+:root.dark-mode #nav-menu a:hover {
+  color: var(--accent);
+  border-bottom-color: var(--accent);
+}
+:root.dark-mode #experience {
+  background-color: var(--bg);
+}
+:root.dark-mode #experience h2,
+:root.dark-mode #experience .experience-item h3 {
+  color: var(--fg);
+}
+:root.dark-mode #experience .experience-item .company {
+  color: #bbb;
+}
+:root.dark-mode #education {
+  background-color: var(--bg);
+}
+:root.dark-mode #education .edu-item h3 {
+  color: var(--fg);
+}
+:root.dark-mode #education .edu-item .edu-time {
+  color: #bbb;
+}
+:root.dark-mode .contact-info a img {
+  filter: brightness(0) invert(1);
+}

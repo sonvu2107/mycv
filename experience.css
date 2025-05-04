@@ -1,0 +1,22 @@
+
+#experience {
+  padding: 60px 0;
+  background-color: #fefefe;
+}
+#experience h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+.experience-item {
+  margin-bottom: 25px;
+}
+.experience-item h3 {
+  font-size: 1.2rem;
+  margin: 5px 0;
+}
+.experience-item .company {
+  color: #666;
+  font-size: 0.95rem;
+  display: block;
+  margin-bottom: 5px;
+}
